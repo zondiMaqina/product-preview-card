@@ -9,8 +9,27 @@
   <link rel="stylesheet" href="./styling_sheets/styles.css">
 </head>
 <body>
-  <header><p>hello</p></header>
-  <main></main>
-  <footer></footer>
+  <header></header>
+  <main>
+    <picture class="perfume-image">
+      <source role="img"  media="(max-width: 650px)" srcset="./images/image-product-mobile.jpg" alt="perfume product">
+      <img role="img" src="./mages/image-product-desktop.jpg" alt="perfume product">
+    </picture>
+    <section class="perfume-description">
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>
+        A floral, solar and voluptuous interpretation composed by
+        Olivier Polge, Perfumer-Creator for the House of CHANEL
+      </p>
+      <div role="pricing">
+        <b>$149.99</b>
+        <p role="initial-price">$169.99</p>
+      </div>
+      <button><img src="./images/icon-cart.svg" alt="cart icon">Add to Cart</button>
+    </section>
+  </main>
+  <footer>
+    <p>Project created by <a href="github.com/zondiMaqina">Zondi Maqina</a></p>
+  </footer>
 </body>
 </html>

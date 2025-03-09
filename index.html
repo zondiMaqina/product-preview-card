@@ -3,17 +3,16 @@
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE-edge">
   <meta charset="UTF-8"> <!--Helps web browser inteprete universal characters-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Product Preview Card</title>
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="./styling_sheets/styles.css">
 </head>
 <body>
-  <header></header>
   <main>
-    <picture class="perfume-image">
-      <source role="img"  media="(max-width: 650px)" srcset="./images/image-product-mobile.jpg" alt="perfume product">
-      <img role="img" src="./mages/image-product-desktop.jpg" alt="perfume product">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-desktop.jpg" alt="perfume product image">
     </picture>
     <section class="perfume-description">
       <h1>Gabrielle Essence Eau De Parfum</h1>

@@ -7,7 +7,6 @@
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My Process](#my-process)
   - [Technologies Used](#built-with)
@@ -27,12 +26,6 @@ Users should be able to:
 
 - View the optional layout on their devices screen size
 - See hover and focus states for interactive elements
-
-### Screenshot
-
-Below is the screenshot of my solution for the project
-
-<img src="images/my_solution.png" alt="my solution">
 
 ### Links
 
@@ -83,4 +76,4 @@ I must carry on learning to use more semantic HTML and less media queries to avo
 
 ## Acknowledgements
 
-None at the moment
+None at the moment, If there are any improvement or advices please be sure to let this young developer know

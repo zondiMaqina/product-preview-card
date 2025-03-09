@@ -17,30 +17,27 @@
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
-
 ## Overview
 
 ### The Challenge
 
 Create a styled webpage for a product preview card that is for a perfume
 
-Users should be:
+Users should be able to:
 
-- View tthe optional layout on their devices screen size
+- View the optional layout on their devices screen size
 - See hover and focus states for interactive elements
-- make webpage responsive without [media queries](wschools.com/css/css_rwd_mediaqueries.asp)
 
 ### Screenshot
 
 Below is the screenshot of my solution for the project
 
-![screenshot of solution](./screenshots)
+<img src="images/my_solution.png" alt="my solution">
 
 ### Links
 
 - Solution live preview => [product preview card]()
 - Solution => [html file]() [css file]()
-
 
 ## My Process
 
@@ -48,16 +45,38 @@ Below is the screenshot of my solution for the project
 
 - Semantic HTML% markup
 - CSS Flexible Box module
+- Media queries
 
 ### What I learnt
 
+- [x]  I learnt about a new html element `<picture>` it should always take a fallback `img` element in case other `source` element's conditions are not met
+
+```
+<picture>
+  <source srcset="link/to/image" media="(width-type: dimension")>
+  ...
+  <img src="path/to/image">
+</picture>
+```
+
+- [x] It also turns out that using 100% for an image's dimension (width & height)  will at least cause it to follow its container's responsiveness which can be done with flexible box
+
+- [x] Using media queries enabled me to support the card's responsiveness to the next level
+
+```
+@meadia screen and (width-type: dimension){
+  ...
+}
+```
+
 ### Continued Development
+I must carry on learning to use more semantic HTML and less media queries to avoid long loading
 
 ### Useful Resources
 
-- [site / document](link)
+- [W3Scools](https://www.w3schools.com/html/html_images_picture.asp) => reference to the `<picture>` element
 
-
+- [W3Schools](https://www.w3schoolscsom/css/css_rwd_images) => reference to image resposiveness
 ## Author
 
 - Frontend Mentor - [@zondiMaqina](https://www.frontendmentor.io/profile/zondiMaqina)

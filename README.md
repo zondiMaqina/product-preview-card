@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution live preview => [product preview card]()
-- Solution => [html file]() [css file](https://github.com/zondiMaqina/product-preview-card/blob/main/styling_sheets/styles.css)
+- Solution => [html file](index.html) [css file](https://github.com/zondiMaqina/product-preview-card/blob/main/styling_sheets/styles.css)
 
 ## My Process
 

@@ -1,7 +1,51 @@
-@import url("./normalize.css");
+@import url("./normalize.css"); /* 1 */
+/* 1 => resetting some default styles to accompany styles on different browsers */
+
+/* Structuring the card appearance */
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+body .product-card{
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.product-card picture{
+  flex-basis: 1;
+}
+
+.product-card .product-details{
+  flex-grow: 2;
+}
+
+.perfume-img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 0 0 10px;
+}
+
+@media screen and (max-width: 900px){
+
+  .product-card{
+    flex-wrap: wrap;
+    background-color: black;
+  }
 }

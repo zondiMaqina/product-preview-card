@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution live preview => [product preview card]()
-- Solution => [html file]() [css file]()
+- Solution live preview => [product preview card](https://zondimaqina.github.io/product-preview-card/)
+- Solution => [html file](index.html) [css file](https://github.com/zondiMaqina/product-preview-card/blob/main/styling_sheets/styles.css)
 
 ## My Process
 

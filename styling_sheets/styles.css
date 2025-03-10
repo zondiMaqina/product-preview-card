@@ -23,7 +23,7 @@ body{
 body .product-card{
   display: flex;
   flex-flow: row nowrap;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 10px;
   background-color: white;
 }
@@ -43,14 +43,14 @@ h1{
 }
 
 .product-card picture{
-  flex-basis: 620px;
+  flex-grow: 2;
 }
 
 .product-card .product-details{
   padding: 20px;
   display: flex;
   flex-flow: column nowrap;
-  row-gap: 10px;
+  justify-content: space-between;
 }
 
 /* 3 => Takes the initial set dimention of container as it is set with flexbox
@@ -58,7 +58,7 @@ h1{
 
 .perfume-img{
   width: 100%; /* 3 */
-  height: 100%; /* 3 */
+  height: auto; /* 3 */
   display: block;
   border-radius: 10px 0 0 10px;
 }
@@ -125,5 +125,9 @@ a{
 
   .perfume-img{
     border-radius: 10px 10px 0 0;
+  }
+
+  .product-details{
+    gap: 10px;
   }
 }
